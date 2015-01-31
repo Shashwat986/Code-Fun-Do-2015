@@ -4,8 +4,9 @@
     <meta charset="utf-8" />
     <title>BlankSharedApp1.Windows</title>
 
+
     <!-- WinJS references -->
-    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet">
     <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
 
@@ -17,26 +18,18 @@
     <!-- TimelineJS -->
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/build/js/storyjs-embed.js"></script>
-    <script>
-        $(document).ready(function () {
-            createStoryJS({
-                type: 'timeline',
-                width: '800',
-                height: '600',
-                source: 'http://timeline.knightlab.com/static/welcome/welcome.json',
-                embed_id: 'my-timeline'
-            });
-        });
-    </script>
     <!-- END TimelineJS -->
 </head>
-<body>
-    <h1>Newsline</h1>
+<body style="margin:2% 2%">
+    <h1>NewsLine</h1>
     <p>Enter search term</p>
-    <input type="text" id="q"/>
+    <input type="text" id="q" value="Delhi Elections"/>
     <button class="btn btn-primary" id="submit" onsubmit="submit();">Submit</button>
-    <div id="output">Output goes here</div>
+    <div id="output"></div>
 
-    <center><div id="my-timeline"></div></center>
+    <center width="100%" style="display:-ms-grid;-ms-grid-columns:1fr 1fr">
+        <div id="my-timeline" style="-ms-grid-row:1;-ms-grid-column:1"><progress id="wait" class="win-ring win-large" style="display:none"/></div>
+        <div id="map" style="-ms-grid-row:1;-ms-grid-column:2"></div>
+    </center>
 </body>
 </html>

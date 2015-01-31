@@ -92,11 +92,11 @@ build\js\storyjs-embed-cdn.js
 build\js\storyjs-embed-generator.js
 build\js\timeline.js
 build\js\timeline-min.js
+css\bootstrap.min.css
 js\app.js
 js\default.js
 js\jquery.min.js
 js\storyjs-embed.js
-css\bootstrap.min.css
 css\default.css
 default.html
 images\logo.png

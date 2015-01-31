@@ -100,6 +100,7 @@
     <Content Include="$(MSBuildThisFileDirectory)build\js\storyjs-embed.js" />
     <Content Include="$(MSBuildThisFileDirectory)build\js\timeline-min.js" />
     <Content Include="$(MSBuildThisFileDirectory)build\js\timeline.js" />
+    <Content Include="$(MSBuildThisFileDirectory)css\bootstrap.min.css" />
     <Content Include="$(MSBuildThisFileDirectory)js\app.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\jquery.min.js" />
