@@ -104,9 +104,6 @@
     <Content Include="$(MSBuildThisFileDirectory)js\app.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\jquery.min.js" />
-    <Content Include="$(MSBuildThisFileDirectory)js\mapcontrol.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\storyjs-embed.js" />
-    <Content Include="$(MSBuildThisFileDirectory)js\veapicore.js" />
-    <Content Include="$(MSBuildThisFileDirectory)js\winstore-jscompat.js" />
   </ItemGroup>
 </Project>

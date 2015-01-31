@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-31T22:16:43.573</Modified>
+      <Modified>2015-01-31T23:04:31.476</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-01-31T22:16:32.125</Modified>
+      <Modified>2015-01-31T23:12:32.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\embed\index.html">
       <PackagePath>build\embed\index.html</PackagePath>
@@ -434,35 +434,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\app.js">
       <PackagePath>js\app.js</PackagePath>
-      <Modified>2015-01-31T22:20:08.985</Modified>
+      <Modified>2015-01-31T23:12:52.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-01-31T19:48:59.703</Modified>
+      <Modified>2015-01-31T23:02:33.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\jquery.min.js">
       <PackagePath>js\jquery.min.js</PackagePath>
       <Modified>2015-01-31T16:49:35.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\mapcontrol.js">
-      <PackagePath>js\mapcontrol.js</PackagePath>
-      <Modified>2015-01-31T22:18:11.371</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\storyjs-embed.js">
       <PackagePath>js\storyjs-embed.js</PackagePath>
       <Modified>2015-01-31T16:51:40.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\veapicore.js">
-      <PackagePath>js\veapicore.js</PackagePath>
-      <Modified>2015-01-31T22:15:15.477</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\winstore-jscompat.js">
-      <PackagePath>js\winstore-jscompat.js</PackagePath>
-      <Modified>2015-01-31T19:06:41.477</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-31T22:16:43.302</Modified>
+      <Modified>2015-01-31T23:04:30.430</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
