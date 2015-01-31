@@ -96,7 +96,9 @@ css\bootstrap.min.css
 js\app.js
 js\default.js
 js\jquery.min.js
+js\mapcontrol.js
 js\storyjs-embed.js
+js\winstore-jscompat.js
 css\default.css
 default.html
 images\logo.png

@@ -1,9 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>BlankSharedApp1.Windows</title>
-
 
     <!-- WinJS references -->
     <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet">
@@ -19,6 +18,10 @@
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/build/js/storyjs-embed.js"></script>
     <!-- END TimelineJS -->
+
+    <!-- Bing Map -->
+    <script charset="UTF-8" type="text/javascript" src="/js/mapcontrol.js"></script>
+    <!--<script charset="UTF-8" type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>-->
 </head>
 <body style="margin:2% 2%">
     <h1>NewsLine</h1>
@@ -28,8 +31,8 @@
     <div id="output"></div>
 
     <center width="100%" style="display:-ms-grid;-ms-grid-columns:1fr 1fr">
-        <div id="my-timeline" style="-ms-grid-row:1;-ms-grid-column:1"><progress id="wait" class="win-ring win-large" style="display:none"/></div>
-        <div id="map" style="-ms-grid-row:1;-ms-grid-column:2"></div>
+        <div id="my-timeline" style="-ms-grid-row:1;-ms-grid-column:1"><progress id="wait-timeline" class="wait win-ring win-large" style="display:none" /></div>
+        <div id="mapDiv" style="-ms-grid-row:1;-ms-grid-column:2"><progress id="wait-map" class="wait win-ring win-large" style="display:none" /></div>
     </center>
 </body>
 </html>
