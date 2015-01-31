@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BlankSharedApp1.Windows</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- BlankSharedApp1.Windows references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <!-- TimelineJS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+    <script>
+        $(document).ready(function () {
+            createStoryJS({
+                type: 'timeline',
+                width: '800',
+                height: '600',
+                source: 'http://timeline.knightlab.com/static/welcome/welcome.json',
+                embed_id: 'my-timeline'
+            });
+        });
+    </script>
+    <!-- END TimelineJS -->
+</head>
+<body>
+    <h1>Newsline</h1>
+    <p>Enter search term</p>
+    <input type="text" id="q"/>
+    <button class="btn btn-primary" id="submit" onsubmit="submit();">Submit</button>
+    <div id="output">Output goes here</div>
+    <div id="my-timeline"></div>
+</body>
+</html>

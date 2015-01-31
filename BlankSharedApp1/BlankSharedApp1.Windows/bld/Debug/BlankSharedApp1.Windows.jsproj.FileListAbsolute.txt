@@ -1,0 +1,15 @@
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\ReverseMap\resources.pri
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\AppxManifest.xml
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\BlankSharedApp1.Windows.build.appxrecipe
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\priconfig.xml
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\priconfig.xml.intermediate
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\layout.resfiles
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\layout.resfiles.intermediate
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\resources.resfiles
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\resources.resfiles.intermediate
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\pri.resfiles
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\pri.resfiles.intermediate
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\qualifiers.txt
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\qualifiers.txt.intermediate
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\ProjectArchitectures.txt

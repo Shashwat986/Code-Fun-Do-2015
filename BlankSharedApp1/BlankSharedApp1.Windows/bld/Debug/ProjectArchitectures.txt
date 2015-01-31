@@ -1,0 +1,1 @@
+c:\users\ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\BlankSharedApp1.Windows.jsproj;neutral
