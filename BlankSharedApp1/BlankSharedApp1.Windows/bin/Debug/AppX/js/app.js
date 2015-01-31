@@ -25,6 +25,10 @@ var searchManager = null;
 var currInfobox = null;
 
 function GetMap() {
+    var map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), { credentials: "AsDOXs6EtHIFjM1fLmUIrqOz1VDKmJ5coV3t0k0TDbh4C7iu8UssD-NJ1fCCbp3W" });
+}
+
+function OldGetMap(){
     Microsoft.Maps.loadModule('Microsoft.Maps.Themes.BingTheme', {
         callback: function () {
             map = new Microsoft.Maps.Map(document.getElementById('divMap'),
