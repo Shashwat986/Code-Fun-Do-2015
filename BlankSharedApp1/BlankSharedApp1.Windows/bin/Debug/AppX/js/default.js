@@ -18,6 +18,7 @@
             args.setPromise(WinJS.UI.processAll());
 
             document.getElementById("submit").addEventListener("click", onSubmit, false);
+            document.getElementById("q").addEventListener("keypress", onCheckEnter, false);
             init();
         }
     };

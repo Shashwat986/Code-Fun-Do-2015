@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-02-01T03:55:14.091</Modified>
+      <Modified>2015-02-01T05:12:44.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\embed\index.html">
       <PackagePath>build\embed\index.html</PackagePath>
@@ -35,12 +35,12 @@
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T12:08:24.000</Modified>
+      <Modified>2015-02-01T06:07:21.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T12:08:24.000</Modified>
+      <Modified>2015-02-01T06:07:21.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\spinner.png">
       <PackagePath>images\spinner.png</PackagePath>
@@ -49,12 +49,12 @@
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T12:08:24.000</Modified>
+      <Modified>2015-02-01T06:07:21.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T12:08:24.000</Modified>
+      <Modified>2015-02-01T06:07:21.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\css\fancybox_sprite%402x.png">
       <PackagePath>build\css\fancybox_sprite%402x.png</PackagePath>
@@ -174,7 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\jquery.quickselect.css">
       <PackagePath>css\jquery.quickselect.css</PackagePath>
-      <Modified>2015-01-31T23:59:44.343</Modified>
+      <Modified>2015-02-01T05:55:07.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\stylesheet.css">
       <PackagePath>css\stylesheet.css</PackagePath>
@@ -446,11 +446,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\app.js">
       <PackagePath>js\app.js</PackagePath>
-      <Modified>2015-02-01T03:52:50.525</Modified>
+      <Modified>2015-02-01T06:23:13.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-01-31T23:38:26.395</Modified>
+      <Modified>2015-02-01T04:51:46.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\isotope.pkgd.min.js">
       <PackagePath>js\isotope.pkgd.min.js</PackagePath>
@@ -474,7 +474,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\jsons\entries.json">
       <PackagePath>jsons\entries.json</PackagePath>
-      <Modified>2015-02-01T02:31:36.580</Modified>
+      <Modified>2015-02-01T05:02:45.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\jsons\test.json">
       <PackagePath>jsons\test.json</PackagePath>

@@ -6,22 +6,53 @@
             return;
         document.getElementById("output").innerText = userName + " is your search term.";
         $("#wait-timeline").show();
-        $("#wait-right").show();
-        console.log('http://172.27.20.103:1337/people/get?name=' + encodeURIComponent(userName));
+        $("#my-timeline").show();
         $("#my-timeline").html("");
-        createStoryJS({
-            type: 'timeline',
-            width: '800',
-            height: '600',
-            source: 'http://172.27.20.103:1337/people/get?name=' + encodeURIComponent(userName),
-            embed_id: 'my-timeline'
+        $(".pics").hide();
+        $.get('/jsons/entries.json', function (data) {
+            data = JSON.parse(data);
+            var flag = 0;
+            for (var i = 0; i < data.length; i++)
+            {
+                nm = data[i].label;
+                v = data[i].value;
+                if (userName == nm.trim()) {
+                    console.log(nm + "," + v);
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 1)
+            {
+                console.log(nm + "," + v);
+                url_s = 'http://172.27.20.103:1337/people/get?name=' + encodeURIComponent(userName) + '&pid=' + encodeURIComponent(v);
+            }
+            else
+            {
+                console.log(nm + "," + v + "," + userName);
+                url_s = 'http://172.27.20.103:1337/people/get?name=' + encodeURIComponent(userName);
+            }
+            $.get(url_s).fail(function () {
+                $("#my-timeline").hide();
+            });
         });
+        
+        setTimeout(function () {
+            createStoryJS({
+                type: 'timeline',
+                width: '800',
+                height: '600',
+                source: url_s,
+                embed_id: 'my-timeline'
+            });
+            $("#wait-timeline").hide();
+        }, 5000);
+        
         //source: 'http://timeline.knightlab.com/static/welcome/welcome.json',
         //http://172.27.20.103:1337/people/get?name=sachin%20tendulkar
         ///jsons/test.json
-        $("#wait-timeline").hide();
 
-        url_v = "https://api.datamarket.azure.com/Bing/Search/v1/Image?Query=%27" + encodeURIComponent(userName) + "%27&$format=json";
+        url_v = "https://api.datamarket.azure.com/Bing/Search/v1/Image?Query=%27" + encodeURIComponent(userName) + "%27&$format=json&ImageFilters=%27Size%3AMedium%27";
         key_v = "gOW3yOZfJuQy7HEPJF05zC/DjMt8ngCEhskpk8abdbM";
         $.ajax({
             url: url_v,
@@ -30,18 +61,19 @@
                 xhr.setRequestHeader("Authorization", "Basic " + btoa(key_v + ":" + key_v));
             }
         }).done(function (data) {
-            console.log(data);
-            $("#wait-right").hide();
+            //console.log(data);
             var images = data.d.results;
             ims = $(".pics");
+            for (i = 0; i < ims.length; i++) $(ims.get(i)).attr("src", "");
             for (i=0;i<ims.length;i++)
             {
-                $(ims.get(i)).attr("src", images[i].MediaUrl).show();
+                $(ims.get(i)).attr("src", images[i].MediaUrl).delay(1500 * Math.floor(Math.random() * 5 + 1)).fadeIn(400, function () {
+                    var $container = $("#right-div").isotope({
+                        itemSelector: '.pics',
+                        layoutMode: 'masonry'
+                    });
+                });
             }
-            var $container = $("#right-div").isotope({
-                itemSelector: '.pics',
-                layoutMode: 'masonry'
-            });
         });
     });
 }
@@ -52,3 +84,9 @@ function init() {
         // 'exactMatch': 'true', 
     });
 };
+
+
+function onCheckEnter(e) {
+    if (e.keyCode == 13)
+        onSubmit();
+}
