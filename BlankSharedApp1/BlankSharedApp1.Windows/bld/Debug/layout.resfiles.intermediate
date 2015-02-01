@@ -100,6 +100,7 @@ js\jquery.min.js
 js\jquery.quickselect.js
 js\quicksilver.js
 js\storyjs-embed.js
+jsons\test.json
 css\default.css
 default.html
 images\logo.png

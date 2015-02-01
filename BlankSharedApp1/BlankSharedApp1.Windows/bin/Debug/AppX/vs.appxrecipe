@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>c64a6f27-d01e-447f-86ef-f6ae51301b5f</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>5C8183E580E8C3887C9B70D1E790391258D86BC75E9F91FFF7BC3A750BACF6F2</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E24184C1EFFDEFAF3A9FADE47508AF9FA3C925ECAEAE0C1264F9D95247E4FCC3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c64a6f27-d01e-447f-86ef-f6ae51301b5f_1.0.0.0_neutral__j08d4r0n0jj1w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c64a6f27-d01e-447f-86ef-f6ae51301b5f_j08d4r0n0jj1w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c64a6f27-d01e-447f-86ef-f6ae51301b5f</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-01T00:54:23.167</Modified>
+      <Modified>2015-02-01T01:08:59.089</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-02-01T00:06:14.533</Modified>
+      <Modified>2015-02-01T01:34:35.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\embed\index.html">
       <PackagePath>build\embed\index.html</PackagePath>
@@ -442,7 +442,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\app.js">
       <PackagePath>js\app.js</PackagePath>
-      <Modified>2015-02-01T00:51:32.980</Modified>
+      <Modified>2015-02-01T01:41:47.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -464,9 +464,13 @@
       <PackagePath>js\storyjs-embed.js</PackagePath>
       <Modified>2015-01-31T16:51:40.265</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\jsons\test.json">
+      <PackagePath>jsons\test.json</PackagePath>
+      <Modified>2015-02-01T01:21:55.980</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-01T00:54:22.958</Modified>
+      <Modified>2015-02-01T01:08:58.841</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
