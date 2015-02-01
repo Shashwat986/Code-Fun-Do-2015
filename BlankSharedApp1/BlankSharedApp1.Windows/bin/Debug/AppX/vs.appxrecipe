@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>c64a6f27-d01e-447f-86ef-f6ae51301b5f</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>E24184C1EFFDEFAF3A9FADE47508AF9FA3C925ECAEAE0C1264F9D95247E4FCC3</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>A54A2F030CBBDF6C1927767D72770FD62C6568BCB6BF61394BC970FC52D15AB0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c64a6f27-d01e-447f-86ef-f6ae51301b5f_1.0.0.0_neutral__j08d4r0n0jj1w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c64a6f27-d01e-447f-86ef-f6ae51301b5f_j08d4r0n0jj1w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c64a6f27-d01e-447f-86ef-f6ae51301b5f</RegisteredPackageID>
@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-01T03:40:51.094</Modified>
+      <Modified>2015-02-01T06:45:13.881</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -446,7 +446,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\app.js">
       <PackagePath>js\app.js</PackagePath>
-      <Modified>2015-02-01T06:23:13.034</Modified>
+      <Modified>2015-02-01T06:57:29.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -482,7 +482,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-01T03:40:50.884</Modified>
+      <Modified>2015-02-01T06:45:13.663</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

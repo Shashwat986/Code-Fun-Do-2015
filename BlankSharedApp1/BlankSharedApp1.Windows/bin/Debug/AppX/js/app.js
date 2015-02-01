@@ -1,14 +1,19 @@
-﻿function onSubmit(eventInfo) {
+﻿var userName_Last = null;
+
+function onSubmit(eventInfo) {
     
     $(document).ready(function () {
         var userName = document.getElementById("q").value.trim();
         if (userName.length == 0)
             return;
+        if (userName != userName_Last) {
+            $(".pics").hide();
+        }
         document.getElementById("output").innerText = userName + " is your search term.";
         $("#wait-timeline").show();
         $("#my-timeline").show();
         $("#my-timeline").html("");
-        $(".pics").hide();
+        
         $.get('/jsons/entries.json', function (data) {
             data = JSON.parse(data);
             var flag = 0;
@@ -54,6 +59,7 @@
 
         url_v = "https://api.datamarket.azure.com/Bing/Search/v1/Image?Query=%27" + encodeURIComponent(userName) + "%27&$format=json&ImageFilters=%27Size%3AMedium%27";
         key_v = "gOW3yOZfJuQy7HEPJF05zC/DjMt8ngCEhskpk8abdbM";
+        if (userName != userName_Last)
         $.ajax({
             url: url_v,
             dataType: 'json',
@@ -74,6 +80,7 @@
                     });
                 });
             }
+            userName_Last = userName;
         });
     });
 }
