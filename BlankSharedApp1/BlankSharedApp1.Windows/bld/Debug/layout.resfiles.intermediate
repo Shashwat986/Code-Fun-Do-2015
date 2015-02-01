@@ -93,13 +93,17 @@ build\js\storyjs-embed-generator.js
 build\js\timeline.js
 build\js\timeline-min.js
 css\bootstrap.min.css
+css\jquery.quickselect.css
 js\app.js
 js\default.js
 js\jquery.min.js
+js\jquery.quickselect.js
+js\quicksilver.js
 js\storyjs-embed.js
 css\default.css
 default.html
 images\logo.png
 images\smalllogo.png
+images\spinner.png
 images\splashscreen.png
 images\storelogo.png

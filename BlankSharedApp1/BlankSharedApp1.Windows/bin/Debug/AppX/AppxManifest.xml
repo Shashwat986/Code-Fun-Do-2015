@@ -35,6 +35,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
   </Capabilities>
   <Dependencies>
     <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.17018" />

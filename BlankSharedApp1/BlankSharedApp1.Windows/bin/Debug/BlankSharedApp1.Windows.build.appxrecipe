@@ -30,6 +30,9 @@
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\spinner.png">
+      <PackagePath>images\spinner.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -124,6 +127,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\bootstrap.min.css">
       <PackagePath>css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\jquery.quickselect.css">
+      <PackagePath>css\jquery.quickselect.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\css\blank.gif">
       <PackagePath>build\css\blank.gif</PackagePath>
@@ -331,6 +337,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\jquery.min.js">
       <PackagePath>js\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\jquery.quickselect.js">
+      <PackagePath>js\jquery.quickselect.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\quicksilver.js">
+      <PackagePath>js\quicksilver.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\storyjs-embed.js">
       <PackagePath>js\storyjs-embed.js</PackagePath>

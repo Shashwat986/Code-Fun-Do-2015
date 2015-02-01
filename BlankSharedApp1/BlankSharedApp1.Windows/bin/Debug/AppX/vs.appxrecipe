@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>c64a6f27-d01e-447f-86ef-f6ae51301b5f</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>DFB5800915450C15A3C4A69521A056FB11E98D6E3091A9A2C2F2CB4E9FEBF6C4</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>5C8183E580E8C3887C9B70D1E790391258D86BC75E9F91FFF7BC3A750BACF6F2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c64a6f27-d01e-447f-86ef-f6ae51301b5f_1.0.0.0_neutral__j08d4r0n0jj1w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c64a6f27-d01e-447f-86ef-f6ae51301b5f_j08d4r0n0jj1w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c64a6f27-d01e-447f-86ef-f6ae51301b5f</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-31T23:04:31.476</Modified>
+      <Modified>2015-02-01T00:54:23.167</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-01-31T23:12:32.344</Modified>
+      <Modified>2015-02-01T00:06:14.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\embed\index.html">
       <PackagePath>build\embed\index.html</PackagePath>
@@ -41,6 +41,10 @@
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-06-02T12:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\spinner.png">
+      <PackagePath>images\spinner.png</PackagePath>
+      <Modified>2015-01-31T23:59:14.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
@@ -167,6 +171,10 @@
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\bootstrap.min.css">
       <PackagePath>css\bootstrap.min.css</PackagePath>
       <Modified>2015-01-31T15:15:08.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\jquery.quickselect.css">
+      <PackagePath>css\jquery.quickselect.css</PackagePath>
+      <Modified>2015-01-31T23:59:44.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\css\blank.gif">
       <PackagePath>build\css\blank.gif</PackagePath>
@@ -434,15 +442,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\app.js">
       <PackagePath>js\app.js</PackagePath>
-      <Modified>2015-01-31T23:12:52.033</Modified>
+      <Modified>2015-02-01T00:51:32.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-01-31T23:02:33.677</Modified>
+      <Modified>2015-01-31T23:38:26.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\jquery.min.js">
       <PackagePath>js\jquery.min.js</PackagePath>
       <Modified>2015-01-31T16:49:35.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\jquery.quickselect.js">
+      <PackagePath>js\jquery.quickselect.js</PackagePath>
+      <Modified>2015-01-31T23:51:25.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\quicksilver.js">
+      <PackagePath>js\quicksilver.js</PackagePath>
+      <Modified>2015-01-31T23:33:34.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\storyjs-embed.js">
       <PackagePath>js\storyjs-embed.js</PackagePath>
@@ -450,7 +466,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-31T23:04:30.430</Modified>
+      <Modified>2015-02-01T00:54:22.958</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
