@@ -94,12 +94,15 @@ build\js\timeline.js
 build\js\timeline-min.js
 css\bootstrap.min.css
 css\jquery.quickselect.css
+css\stylesheet.css
 js\app.js
 js\default.js
+js\isotope.pkgd.min.js
 js\jquery.min.js
 js\jquery.quickselect.js
 js\quicksilver.js
 js\storyjs-embed.js
+jsons\entries.json
 jsons\test.json
 css\default.css
 default.html

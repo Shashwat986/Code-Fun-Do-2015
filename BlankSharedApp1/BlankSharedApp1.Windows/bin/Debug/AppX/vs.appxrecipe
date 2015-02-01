@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-01T01:08:59.089</Modified>
+      <Modified>2015-02-01T03:40:51.094</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-02-01T01:34:35.711</Modified>
+      <Modified>2015-02-01T03:55:14.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\embed\index.html">
       <PackagePath>build\embed\index.html</PackagePath>
@@ -175,6 +175,10 @@
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\jquery.quickselect.css">
       <PackagePath>css\jquery.quickselect.css</PackagePath>
       <Modified>2015-01-31T23:59:44.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\css\stylesheet.css">
+      <PackagePath>css\stylesheet.css</PackagePath>
+      <Modified>2015-02-01T03:46:11.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\build\css\blank.gif">
       <PackagePath>build\css\blank.gif</PackagePath>
@@ -442,11 +446,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\app.js">
       <PackagePath>js\app.js</PackagePath>
-      <Modified>2015-02-01T01:41:47.357</Modified>
+      <Modified>2015-02-01T03:52:50.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
       <Modified>2015-01-31T23:38:26.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\isotope.pkgd.min.js">
+      <PackagePath>js\isotope.pkgd.min.js</PackagePath>
+      <Modified>2015-02-01T03:24:03.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\js\jquery.min.js">
       <PackagePath>js\jquery.min.js</PackagePath>
@@ -464,13 +472,17 @@
       <PackagePath>js\storyjs-embed.js</PackagePath>
       <Modified>2015-01-31T16:51:40.265</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\jsons\entries.json">
+      <PackagePath>jsons\entries.json</PackagePath>
+      <Modified>2015-02-01T02:31:36.580</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Shared\jsons\test.json">
       <PackagePath>jsons\test.json</PackagePath>
       <Modified>2015-02-01T01:21:55.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ankit\documents\visual studio 2013\Projects\BlankSharedApp1\BlankSharedApp1\BlankSharedApp1.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-01T01:08:58.841</Modified>
+      <Modified>2015-02-01T03:40:50.884</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

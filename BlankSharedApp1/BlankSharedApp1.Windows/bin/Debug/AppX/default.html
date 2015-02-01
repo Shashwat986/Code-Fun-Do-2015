@@ -24,18 +24,32 @@
     <script type="text/javascript" src="/js/quicksilver.js"></script>
     <link href="/css/jquery.quickselect.css" rel="stylesheet" />
 
+    <!-- Isotope -->
+    <script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+    <link href="/css/stylesheet.css" rel="stylesheet" />
+
 </head>
-<body style="margin:2% 2%">
-    <h1>NewsLine</h1>
-    <p>Enter search term</p>
-    <input type="text" id="q" value=""/>
+<body style="margin:2% 2% 2% 2%">
+    <center width="100%" style="display:-ms-grid;-ms-grid-columns:1fr 2fr">
+        <div style="-ms-grid-row:1;-ms-grid-column:1">
+            <h1>WallOfFame</h1>
+            <p>Enter search term</p>
+            <input type="text" id="q" value="" />
 
-    <button class="btn btn-primary" id="submit" onsubmit="submit();">Submit</button>
-    <div id="output"></div>
-
-    <center width="100%" style="display:-ms-grid;-ms-grid-columns:1fr 1fr">
-        <div id="my-timeline" style="-ms-grid-row:1;-ms-grid-column:1"><progress id="wait-timeline" class="wait win-ring win-large" style="display:none"></progress></div>
-        <div id="right-div" style="-ms-grid-row:1;-ms-grid-column:2"><progress id="wait-right" class="wait win-ring win-large" style="display:none"></progress></div>
+            <button class="btn btn-primary" id="submit" onsubmit="submit();">Submit</button>
+            <div id="output"></div>
+        </div>
+        <div id="right-div" style="-ms-grid-row:2;-ms-grid-column:1">
+            <img id="img1" class="pics" width="45%" style="display:none"/>
+            <img id="img2" class="pics" width="45%" style="display:none" />
+            <img id="img3" class="pics" width="45%" style="display:none" />
+            <img id="img4" class="pics" width="45%" style="display:none" />
+            <img id="img5" class="pics" width="45%" style="display:none" />
+            <img id="img6" class="pics" width="45%" style="display:none" />
+        </div>
+        <div id="my-timeline" style="-ms-grid-row:1;-ms-grid-column:2;-ms-grid-row-span:2">
+            <progress id="wait-timeline" class="wait win-ring win-large" style="display:none"></progress>
+        </div>
     </center>
 </body>
 </html>

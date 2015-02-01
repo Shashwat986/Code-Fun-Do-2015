@@ -102,9 +102,12 @@
     <Content Include="$(MSBuildThisFileDirectory)build\js\timeline.js" />
     <Content Include="$(MSBuildThisFileDirectory)css\bootstrap.min.css" />
     <Content Include="$(MSBuildThisFileDirectory)css\jquery.quickselect.css" />
+    <Content Include="$(MSBuildThisFileDirectory)css\stylesheet.css" />
+    <Content Include="$(MSBuildThisFileDirectory)jsons\entries.json" />
     <Content Include="$(MSBuildThisFileDirectory)jsons\test.json" />
     <Content Include="$(MSBuildThisFileDirectory)js\app.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\isotope.pkgd.min.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\jquery.min.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\jquery.quickselect.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\quicksilver.js" />
