@@ -58,7 +58,7 @@ function onSubmit(eventInfo) {
         ///jsons/test.json
 
         url_v = "https://api.datamarket.azure.com/Bing/Search/v1/Image?Query=%27" + encodeURIComponent(userName) + "%27&$format=json&ImageFilters=%27Size%3AMedium%27";
-        key_v = "gOW3yOZfJuQy7HEPJF05zC/DjMt8ngCEhskpk8abdbM";
+        key_v = "BING KEY GOES HERE";
         if (userName != userName_Last)
         $.ajax({
             url: url_v,
